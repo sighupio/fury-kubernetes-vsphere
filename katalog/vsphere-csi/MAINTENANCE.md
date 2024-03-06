@@ -11,5 +11,5 @@ You can use `go-getter` to download the files more easily:
 # install go-getter if you don't have it in your system:
 $ go install github.com/hashicorp/go-getter@latest
 # Get the files. Pay attention to the ?ref= parameter, you should put the right tag there.
-$ go-getter "github.com/kubernetes-sigs/vsphere-csi-driver.git?ref=v3.0.1//manifests//vanilla" /tmp/vanilla
+$ go-getter "github.com/kubernetes-sigs/vsphere-csi-driver.git?ref=v3.1.2//manifests//vanilla" /tmp/vanilla
 ```
